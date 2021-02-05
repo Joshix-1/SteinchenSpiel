@@ -1,0 +1,65 @@
+body {
+    background: black;
+    color: ghostwhite;
+}
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 50%;
+    border: 1px solid black;
+}
+
+.row td {
+    border: 1px dotted black;
+}
+
+.row-1 td {
+    border-bottom: 1px solid black;
+}
+
+.row-2 td {
+    border-top: 1px solid black;
+}
+
+td {
+    padding-top: 3.125%; /* (50/8)/2 */
+    padding-bottom: 3.125%;
+    text-align: center;
+    font-size: 20px;
+    width: 6.25%; /* 50/8 */
+    background: #8b4513;
+    color: #f0f8ff;
+    border-radius: 1px;
+}
+
+#cell-0-0 {
+    border-top-left-radius: 10px;
+}
+
+#cell-0-7 {
+    border-top-right-radius: 10px;
+}
+
+#cell-1-0 {
+    border-bottom-left-radius: 10px;
+}
+
+#cell-1-7 {
+    border-bottom-right-radius: 10px;
+}
+
+#cell-2-0 {
+    border-top-left-radius: 10px;
+}
+
+#cell-2-7 {
+    border-top-right-radius: 10px;
+}
+
+#cell-3-0 {
+    border-bottom-left-radius: 10px;
+}
+
+#cell-3-7 {
+    border-bottom-right-radius: 10px;
+}
